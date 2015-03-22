@@ -107,7 +107,7 @@ run_analysis <- function() {
   print(tidyData[1:3, 1:3])
   
   #Wtite the dataset to a new .txt file
-  write.table(tidyData, "./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/TidyData.txt")
+  write.table(tidyData, "./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/TidyData.txt", row.name=FALSE)
   
  
   
