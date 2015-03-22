@@ -10,7 +10,9 @@ run_analysis <- function() {
        
      
      #install.packages("reshape", "dplyr", "reshape2")
-     library(dplyr, reshape, reshape2)
+     library(dplyr)
+     library(reshape)
+     library(reshape2)
      
   #Load the activityLabel df  
   
